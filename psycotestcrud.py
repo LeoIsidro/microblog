@@ -2,7 +2,7 @@ import psycopg2
 from psycopg2 import Error
 
 try:
-    connection = psycopg2.connect(user="postgres", password="UTEC", database="postgres", host="localhost", port="5432")
+    connection = psycopg2.connect(user="postgres", password="Princesa4", database="postgres", host="localhost", port="5432")
 
 
     cursor = connection.cursor()
